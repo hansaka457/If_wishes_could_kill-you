@@ -1,0 +1,54 @@
+/* style.css */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+
+body{
+  background:#050505;
+  color:white;
+}
+
+.topbar{
+  width:100%;
+  padding:20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#111;
+  position:sticky;
+  top:0;
+}
+
+.topbar a{
+  color:white;
+  text-decoration:none;
+  background:#ff0055;
+  padding:10px 18px;
+  border-radius:10px;
+}
+
+#videoContainer{
+  padding:20px;
+  display:grid;
+  gap:20px;
+}
+
+.videoCard{
+  background:#111;
+  padding:15px;
+  border-radius:20px;
+}
+
+video{
+  width:100%;
+  border-radius:15px;
+}
+
+.timer{
+  margin-top:10px;
+  color:#ff4d6d;
+  font-size:18px;
+}
